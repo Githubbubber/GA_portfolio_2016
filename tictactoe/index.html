@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TicTacToe</title>
+  <link rel="icon" type="favicon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header id="header" class="header">
+    <h1>Tic Tac Toe</h1>
+  </header><!-- /header -->
+
+  <section>
+    <div id="firstWindow">
+      <p id="gameMsg">Please choose a player piece:</p>
+      <div class="xPiece"></div>
+      <div class="oPiece"></div>
+      <button id="playNow">Begin!</button>
+    </div>
+    <div id="secondWindow">
+      <table>
+          <thead>
+            <tr>
+              <th colspan="3" id="whoseTurnIsIt"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td id="square_0_0"></td>
+                <td id="square_0_1" class="middleBlueBorders"></td>
+                <td id="square_0_2"></td>
+            </tr>
+            <tr>
+                <td id="square_1_0" class="middleRedBorders"></td>
+                <td id="square_1_1" class="centerAllBorders"></td>
+                <td id="square_1_2" class="middleRedBorders"></td>
+            </tr>
+            <tr>
+                <td id="square_2_0"></td>
+                <td id="square_2_1" class="middleBlueBorders"></td>
+                <td id="square_2_2"></td>
+            </tr>
+          </tbody>
+      </table>
+      <button id="endGame">End game</button>
+    </div>
+    <div id="lastWindow">
+      <p id="lastWindowMsg"></p>
+    </div>
+  </section>
+
+  <footer>
+    <small>Mekesia Brown, Arcade Game project #1 for General Assembly<br />
+    WDI, 2016</small>
+  </footer>
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* Make sure to add drop shadow to each sprite */
+.sprite {
+  background-image: url("../media/images/sprites.png");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 350px;
+  display: block;
+  margin: auto;
+}
+
+/* Kids */
+.Nylah {
+  background-position: 0px 0px;
+}
+
+.Kate {
+  background-position: -245px 0px;
+}
+
+.Ocean {
+  background-position: -480px 0px;
+}
+
+.Quincey {
+  background-position: -710px 0px;
+}
+
+/* Enemies */
+.Donnie {
+  background-position: 0px -325px;
+}
+
+.Rosa {
+  background-position: -260px -325px;
+}
+
+.trash {
+  background-position: -500px -355px;
+}
+
+.hunger {
+  background-position: -720px -355px;
+}
+
+.congratulations {
+  width: 472px;
+  height: 300px;
+  background-position: -1050px -300px;
+  position: relative;
+  left: 0px;
+  top: -50px;
+  border-radius: 5px;
+}
+
+.playground {
+  background-image: url("../media/images/pg.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 750px;
+  height: 750px;
+  right: 0;
+  top:0;
+  z-index: -3;
+}
+
+.audio {
+  width: 150px;
+  height: 150px;
+  background-position: -950px -125px;
+  position: absolute;
+  right: -13px;
+  top:65px;
+  display: inline-block;
+}
+
+.gamePiece {
+  display: block;
+  width: 50px;
+  height: 100px;
+}
+
+.nylahGamePiece { background-position: -200px 0px; }
+
+.kateGamePiece {
+  background-position: -430px 0px;
+}
+
+.quinceyGamePiece {
+  background-position: -675px 0px;
+}
+
+.oceanGamePiece {
+  background-position: -900px 0px;
+}
+
+#lastScreen {
+  margin: -15% 15% 0 0;
+}

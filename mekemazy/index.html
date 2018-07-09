@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MekeMaZy</title>
+  <link rel="icon" type="favicon" href="./media/images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sprites.css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:500,500italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header>
+    <h1>MekeMaZy</h1>
+    <p>
+      Help your special kid get to the playground while avoiding obstacles!
+    </p>
+  </header>
+
+  <section id="container">
+    <div id="newgame">
+      <p>HI! Go through the MaZy Maze to help your kid get to the playground!
+      Beat enemies and your time to get on the ScoreBoard!<br />
+      First, what is your name:</p>
+      <input type="text" id="pname1" name="pname1" required placeholder="Player name" />
+      <button id="chooseKid" type="submit">Submit</button>
+      <div id="warning"></div>
+      <div id="revealAfterNameEntry">
+        <p id="instructions"></p>
+        <div id="whichKid" class="sprite kid"></div>
+        <button type="submit" id="letsPlay">PLAY NOW!</button>
+        <br />
+        <small id="reallySmall">Please note: Screen width must be 1280
+        x 800 to play MekeMaZy. Sorry!</small>
+      </div>
+    </div>
+
+    <div id="maze">
+      <p id="mazeDirections"></p>
+      <canvas width="570" height="438" id="mazecanvas">
+        Can't load the maze game, because your browser doesn't support HTML5. Sad day!
+      </canvas>
+      <noscript>You don't have Javascript enabled! The internet must be VERY different for you. Consider enabling Javascript.</noscript>
+    </div>
+
+    <div id="finish">
+      <div class="sprite congratulations"></div>
+      <div class="sprite" id='lastScreen'></div>
+      <div class="playground"></div>
+      <p id="finishGame"></p>
+      <ul id="scoreBoard">
+        <li>#1 - Name1 - Kid1 - Time: 00:00:00 - Enemies fought: 3</li>
+        <li>#2 - Name2 - Kid2 - Time: 00:00:00 - Enemies fought: 2</li>
+        <li>#3 - Name3 - Kid3 - Time: 00:00:00 - Enemies fought: 1</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <small>Mekesia Brown, project #1(b) for General Assembly, 2016</small>
+  </footer>
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

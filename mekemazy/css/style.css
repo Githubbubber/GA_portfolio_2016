@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  color: #212121;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.25em;
+  line-height: 2em;
+}
+
+button {
+  width: 250px;
+  height: 2.5em;
+  margin: 2% auto;
+  font-size: 1em;
+  background-color: #B2DFDB;
+  font-weight:bold;
+  border-radius: 15px 15px 0 0;
+  border-color: #FFFFFF;
+}
+
+br { line-height: 2.5em; }
+
+button:focus, input:focus { outline:none; }
+
+button#exit { display:block; margin: auto; }
+
+footer {
+  text-align: center;
+  margin: 5% auto;
+  color: maroon;
+}
+
+h1 { font-size: 3em; }
+
+header {
+  text-align: left;
+  margin-bottom: 2em;
+  padding: 1em 20% 1em 25%;
+  background-color: #009688;
+  border-bottom: 8px ridge #B2DFDB;
+}
+
+input {
+  min-width: 290px;
+  height: 2.5em;
+  border-radius: 15px 15px 0 0;
+  background-color: #fff;
+  color: darkgreen;
+  font-size: 1em;
+  text-align: left;
+  padding-left: 11%;
+}
+
+li { list-style-type:none; }
+
+p { margin-top: 10px; line-height: 1.5em;}
+
+ul {
+  background-color: black;
+  color: #32CD32;
+  padding: 1.5% 3%;
+  width: 74%;
+}
+
+div#newgame {
+  width: 75%;
+  border: 2px solid maroon;
+  padding: 2%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+div#revealAfterNameEntry {
+  display: none;
+  margin: auto;
+  text-align: center;
+}
+
+div#maze {
+  display: none;
+  text-align: center;
+}
+
+div#finish {
+  display: none;
+  width: 75%;
+  padding-left: 2%;
+  margin: 0 25% 0 0;
+  text-align: left;
+}
+
+p#finishGame { margin: 2em 0 1em; }
+
+small#reallySmall { font-size: .65em; color: grey; }

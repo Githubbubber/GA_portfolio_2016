@@ -1,0 +1,92 @@
+body{
+	font-family: Helvetica, Arial;
+	font-size: 18px;
+	zoom: 1.75;
+}
+#bg_image{
+	position: relative;
+	border: 10px solid #CCC;
+	width: 556px;
+	height: 371px;
+	background: url(images/bg.png);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+}
+
+
+
+#pikachu{
+	position: absolute;
+	height:110px;
+	width:100%;
+	margin-top:148px;
+}
+#pikachu_img{
+	position: absolute;
+	width:150px;
+	left:50px;
+	margin-right: 0px;
+}
+#pikachu p{
+	margin-left: 285px;
+	margin-bottom:0;
+	margin-top:0;
+}
+#pikachu .name{
+	margin-top:40px;
+
+}
+
+
+
+
+#enemy{
+	position: absolute;
+	top:10px;
+	width:300px;
+}
+#enemy p{
+	margin-left: 30px;
+	margin-bottom:0;
+	margin-top:0;
+}
+#enemy_img{
+	position: absolute;
+	width:130px;
+	height:130px;
+	left: 335px;
+	top:20px;
+	transition: transform .5s;
+}
+
+#status_text{
+	position: absolute;
+	height:65px;
+	width:65%;
+	text-align: center;
+	left:5%;
+	top:290px;
+	color:white;
+
+}
+#attack_btn{
+	cursor: pointer;
+	color: white;
+	border:1px solid;
+	position: absolute;
+	left:75%;
+	width:20%;
+	text-align: center;
+	top:263px;
+}
+#heal_btn{
+	cursor: pointer;
+	color: white;
+	border:1px solid;
+	position: absolute;
+	left:75%;
+	width:20%;
+	text-align: center;
+	top:305px;
+}
