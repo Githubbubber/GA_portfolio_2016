@@ -93,7 +93,10 @@ table {
   height: 600px;
 }
 
-td { width: 30%; }
+td { 
+  width: 30%; 
+  height: 30%;
+}
 
 td.middleBlueBorders {
   border-left: 20px solid blue;
