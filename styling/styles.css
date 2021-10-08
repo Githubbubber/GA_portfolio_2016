@@ -1,0 +1,56 @@
+div {
+    width: 50%;
+    margin: 4em auto 0;
+    border: 3px solid green;
+    text-align: center;
+    min-height: 300px;
+    padding: 4%;
+    font-size: 2em;
+    line-height: 2em;
+    background-color: paleturquoise;
+  }
+
+  button {
+    font-size: 2em;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: hand;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  button#tictactoe {
+    background-color: #D32F2F;
+  }
+
+  button#mekemazy {
+    background-color: #009688;
+  }
+
+  button#pokemon_sim {
+    background-color: #123321;
+  }
+
+  button#thewikinian {
+    background-color: #F3A2ED;
+  }
+
+  button#thatcrazyfaker {
+    background-color: #DEFFED;
+  }
+
+  button#buzzbites {
+    background-color: #ABCCBA;
+  }
+
+  button#ingridlafleur {
+    background-color: #F22D2C;
+  }
+
+  button#wowpnyc {
+    background-color: #010641;
+  }
